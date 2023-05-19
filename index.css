@@ -303,6 +303,8 @@
   position: relative;
   font-size: var(--paragraph-body-size);
   line-height: 28px;
+  width: 500px;
+  right: 100px;
 }
 .image2,
 .sub-heading1 {

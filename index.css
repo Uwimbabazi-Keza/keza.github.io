@@ -52,17 +52,7 @@
   align-items: center;
   justify-content: center;
 }
-.download-cv-button-wrapper {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: transparent;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 172px;
-  height: 56px;
-}
+
 .part-inner {
   text-decoration: none;
   position: relative;
@@ -94,6 +84,7 @@
   position: relative;
   display: inline-block;
   width: 247px;
+  
 }
 .sub-heading {
   border-radius: var(--br-base);
@@ -133,27 +124,7 @@
 .projects {
   position: relative;
 }
-.projects {
-  flex: 1;
-  text-align: left;
-}
-.projects-completed {
-  align-self: stretch;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  gap: var(--gap-11xs);
-}
-.data {
-  position: absolute;
-  top: 215px;
-  left: 16px;
-  display: none;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
+
 .service-title {
   flex: 1;
   position: relative;
@@ -169,7 +140,7 @@
 .here {
   color: var(--main-primary);
 }
-.lorem-ipsum-dolor-container {
+.text2 {
   flex: 1;
   position: relative;
 }
@@ -182,7 +153,6 @@
 .description {
   width: 256px;
   height: 38px;
-  overflow: hidden;
   flex-shrink: 0;
   flex-direction: row;
   font-size: var(--paragraph-caption-size);
@@ -207,6 +177,7 @@
   cursor: pointer;
   color: inherit;
 }
+
 .image1 {
   position: absolute;
   top: -21px;
@@ -238,12 +209,15 @@
   justify-content: center;
   gap: var(--gap-21xl);
 }
+
 .services2 {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
 }
+
+
 .text4 {
   position: relative;
   font-size: var(--paragraph-caption-size);
@@ -308,6 +282,7 @@
   align-items: center;
   justify-content: flex-start;
 }
+
 .content-services {
   border-radius: var(--br-base);
   width: 1384px;
@@ -322,14 +297,12 @@
   background-color: var(--neutrals-n0);
   gap: var(--gap-lg);
 }
+
 .i-design-clean {
+  align-self: stretch;
   position: relative;
   font-size: var(--paragraph-body-size);
   line-height: 28px;
-  display: inline-block;
-  width: 363px;
-  height: 66px;
-  flex-shrink: 0;
 }
 .image2,
 .sub-heading1 {
